@@ -20,9 +20,9 @@ The accurate prediction of RUL for lithium-ion batteries is crucial for enhancin
 
 ## 🗓️ News
 
-<p>[2024.10.10] Many thanks to <a href="https://github.com/wei872">Longfei Wei</a>, Improvements made to the code</p>
+<p>[2025.03.16] Many thanks to <a href="https://github.com/wei872">Longfei Wei</a>, Improvements made to the code</p>
 
-<p>[2024.10.10] Many thanks to <a href="https://github.com/Rasheed19/battery-survival">battery-survival</a>, Support provided for lithium battery data processing.</p>
+<p>[2025.01.10] Many thanks to <a href="https://github.com/Rasheed19/battery-survival">battery-survival</a>, Support provided for lithium battery data processing.</p>
 
 <p>Some amazing enhancements will also come out this year.</p>
 
@@ -35,14 +35,14 @@ The accurate prediction of RUL for lithium-ion batteries is crucial for enhancin
 <div align="left">
 
 ## 🗓️ TODO
-
 - [✔] Model information reference: <a href="https://github.com/georgehc/survival-intro">model</a>
+- [✔] Processed data are needed to apply from the corresponding author.
 - [✔] Dataset preprocessing-related content arrangement dependencies： <a href="https://www.sciencedirect.com/science/article/pii/S2666546824001319">Data preprocessing</a>
 - [✔] Li-ion battery data source: <a href="https://data.matr.io/1/.">Toyota dataset</a>
 
 </div>
 
-<strong>Some amazing enhancements are under development. We are warmly welcome anyone to collaborate in improving this repository. Please send me an email if you are interested!</strong>
+<strong>Some amazing enhancements are under development. We are warmly welcome anyone to collaborate in improving this repository. Please send us an email if you are interested!</strong>
 
 
 
@@ -56,7 +56,7 @@ window 11, GeForce 4070, CUDA 12.1 (tested), C++17
 
 #### Clone the repo.
 ```
-git clone https://github.com/ThinkXca/URL.git --recursive
+git clone https://github.com/ThinkXca/RUL.git --recursive
 ```
 
 #### Environment setup 
