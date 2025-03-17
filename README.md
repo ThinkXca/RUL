@@ -72,7 +72,7 @@ git clone https://github.com/ThinkXca/URL.git --recursive
 python Cox.py
 python CoxPH.py
 python CoxTime.py
-python deephits.py
+python DeepHit.py
 python MTLR.py
 ```
 
