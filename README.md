@@ -3,7 +3,7 @@
   <h1 align="center">Survival Analysis with Machine Learning for Predicting Li-ion Battery Remaining Useful Life</h1>
   <h2 align="center">2025</h2>
 
-### [Paper]() | [web](https://thinkx.ca/research/)
+### [Paper]() | [web](https://thinkx.ca/research/RUL)
 
 
 <div align="left">
