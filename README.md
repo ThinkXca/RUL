@@ -36,7 +36,7 @@ The accurate prediction of RUL for lithium-ion batteries is crucial for enhancin
 
 ## 🗓️ TODO
 - [✔] Model information reference: <a href="https://github.com/georgehc/survival-intro">model</a>
-- [✔] Processed data are needed to apply from the corresponding author.
+- [✔] Processed data would be requested from our <a href="https://thinkx.ca">website</a>
 - [✔] Dataset preprocessing-related content arrangement dependencies： <a href="https://www.sciencedirect.com/science/article/pii/S2666546824001319">Data preprocessing</a>
 - [✔] Li-ion battery data source: <a href="https://data.matr.io/1/.">Toyota dataset</a>
 
