@@ -3,10 +3,21 @@
   <h1 align="center">Survival Analysis with Machine Learning for Predicting Li-ion Battery Remaining Useful Life</h1>
   <h2 align="center">2025</h2>
 
-### [Paper]() | [web](https://thinkx.ca/research/rul)
-
+### [Paper](https://doi.org/10.48550/arXiv.2503.13558) | [web](https://thinkx.ca/research/rul)
+</div>
 
 <div align="left">
+## BibTeX
+```
+@article{RUL2025,
+  author = {Jingyuan Xue, Longfei Wei, Fang Sheng, Yuxin Gao, Jianfei Zhang},
+  title = {Survival Analysis with Machine Learning for Predicting Li-ion Battery Remaining Useful Life},
+  journal = {arXiv: 2503.13558},
+  year = {2025},
+  doi = {10.48550/arXiv.2503.13558}
+}
+```
+
 
 ## 📖 Abstract
 <p align="justify">
