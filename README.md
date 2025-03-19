@@ -6,7 +6,6 @@
 ### [Paper](https://doi.org/10.48550/arXiv.2503.13558) | [web](https://thinkx.ca/research/rul)
 </div>
 
-<div align="left">
 ## BibTeX
 ```
 @article{RUL2025,
@@ -18,7 +17,7 @@
 }
 ```
 
-
+<div align="left">
 ## 📖 Abstract
 <p align="justify">
 
