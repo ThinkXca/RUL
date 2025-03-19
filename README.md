@@ -28,7 +28,7 @@ The accurate prediction of RUL for lithium-ion batteries is crucial for enhancin
 
 ## 🗓️ News
 
-<p>[2025.03.16] Many thanks to <a href="https://github.com/wei872">Longfei Wei</a>, Improvements made to the code</p>
+<p>[2025.03.16] Many thanks to <a href="https://github.com/jianfeizhang">Jianfei Zhang</a> and <a href="https://github.com/wei872">Longfei Wei</a> for their contributions to the code.</p>
 
 <p>[2025.01.10] Many thanks to <a href="https://github.com/Rasheed19/battery-survival">battery-survival</a>, Support provided for lithium battery data processing.</p>
 
@@ -48,9 +48,7 @@ The accurate prediction of RUL for lithium-ion batteries is crucial for enhancin
 
 </div>
 
-<strong>Some amazing enhancements are under development. We are warmly welcome anyone to collaborate in improving this repository. Please send us an email if you are interested!</strong>
-
-
+<strong>Some amazing enhancements are under development. We warmly welcome anyone to collaborate to improve this repository. Please send us an email if you are interested!</strong>
 
 
 ## 🚀 Setup
