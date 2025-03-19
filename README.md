@@ -17,16 +17,14 @@
 }
 ```
 
-<div align="left">
 ## 📖 Abstract
 <p align="justify">
 
 The accurate prediction of RUL for lithium-ion batteries is crucial for enhancing the reliability and longevity of energy storage systems. Traditional methods for RUL prediction often struggle with issues such as data sparsity, varying battery chemistries, and the inability to capture complex degradation patterns over time. In this study, we propose a survival analysis-based framework combined with deep learning models to predict the RUL of lithium-ion batteries. Specifically, we utilize five advanced models: the Cox-type models (including Cox, CoxPHm, and CoxTime), two machine-learning-based models (including DeepHit and MTLR). These models address the challenges of accurate RUL estimation by transforming raw time-series battery data into survival data, including key degradation indicators such as voltage, current, and internal resistance. Advanced feature extraction techniques are employed to enhance the model’s robustness in diverse real-world scenarios, including varying charging conditions and battery chemistries. Our models are tested using 10-fold cross-validation, ensuring generalizability and minimizing overfitting. Experimental results show that our survival-based framework significantly improves RUL prediction accuracy compared to traditional methods, providing a reliable tool for battery management and maintenance optimization. This study contributes to the advancement of predictive maintenance in battery technology, offering valuable insights for both researchers and industry practitioners aiming to enhance the operational lifespan of lithium-ion batteries.
 
 </p>
-</div>
 
-<div align="left">
+
 
 ## 🗓️ News
 
@@ -36,13 +34,11 @@ The accurate prediction of RUL for lithium-ion batteries is crucial for enhancin
 
 <p>Some amazing enhancements will also come out this year.</p>
 
-</div>
 
 
 
 
 
-<div align="left">
 
 ## 🗓️ TODO
 - [✔] Model information reference: <a href="https://github.com/georgehc/survival-intro">model</a>
@@ -56,8 +52,6 @@ The accurate prediction of RUL for lithium-ion batteries is crucial for enhancin
 
 
 
-
-<div align="left">
 
 ## 🚀 Setup
 
@@ -73,9 +67,7 @@ git clone https://github.com/ThinkXca/RUL.git --recursive
 ```
 # All installed libraries and their version information are listed in requirements.txt. If you only need to run the above model, it is not necessary to install all libraries. Any missing dependencies for the model can be found in the requirements.txt file.
 ```
-</div>
 
-<div align="left">
 
 #### Run the codes
 ```
@@ -86,9 +78,8 @@ python DeepHit.py
 python MTLR.py
 ```
 
-</div>
 
-<div align="left">
+
 
 #### Comparison of Model Performance
 
@@ -152,4 +143,3 @@ python MTLR.py
     <td>.051 (.009)</td>
   </tr>
 </table>
-</div>
