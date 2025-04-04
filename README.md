@@ -38,8 +38,7 @@ https://data.matr.io/1/api/v1/file/5dceefa6110002c7215b2aa9/download
 https://data.matr.io/1/api/v1/file/5dcef152110002c7215b2c90/download
 
 
-<p>Use below to extract from the original data</p>
-[battery-survival](https://thinkx.ca/research/rul)
+<p>Use <a href="https://github.com/Rasheed19/battery-survival">battery-survival</a> to generate our preprocessed data from the original data</p>
 
 
 ## 🗓️ News
