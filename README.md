@@ -3,7 +3,7 @@
   <h1 align="center">Survival Analysis with Machine Learning for Predicting Li-ion Battery Remaining Useful Life</h1>
   <h2 align="center">2025</h2>
 
-### [Paper](https://doi.org/10.48550/arXiv.2503.13558) | [web](https://thinkx.ca/research/rul) | [Original data] (https://data.matr.io/1/)
+### [Paper](https://doi.org/10.48550/arXiv.2503.13558) | [web](https://thinkx.ca/research/rul)
 </div>
 
 ## BibTeX
@@ -21,6 +21,8 @@
 <p align="justify">
 
 The two preprocessed datasets in Data (charge.csv and discharge.csv) have been extracted from the original Toyota data. These two datasets can be loaded by the five survival models directly.
+
+[Original data](https://data.matr.io/1/)
 
 </p>
 
