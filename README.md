@@ -3,7 +3,7 @@
   <h1 align="center">Survival Analysis with Machine Learning for Predicting Li-ion Battery Remaining Useful Life</h1>
   <h2 align="center">2025</h2>
 
-### [Paper](https://doi.org/10.48550/arXiv.2503.13558) | [web](https://thinkx.ca/research/rul)
+### [Paper](https://doi.org/10.48550/arXiv.2503.13558) | [Web](https://thinkx.ca/research/rul) | [Original data](https://data.matr.io/1/)
 </div>
 
 ## BibTeX
@@ -20,9 +20,22 @@
 ## 📖 Data
 <p align="justify">
 
-The two preprocessed datasets in Data (charge.csv and discharge.csv) have been extracted from the original Toyota data. These two datasets can be loaded by the five survival models directly.
+charge.csv
+discharge.csv
 
-[Original data](https://data.matr.io/1/)
+They have been extracted from the original Toyota data through signature-based feature extraction.
+These two datasets can be loaded by the five survival models directly.
+
+Download original Toyota data:
+
+https://data.matr.io/1/api/v1/file/5c86c0b5fa2ede00015ddf66/download
+https://data.matr.io/1/api/v1/file/5c86bf13fa2ede00015ddd82/download
+https://data.matr.io/1/api/v1/file/5c86bd64fa2ede00015ddbb2/download
+https://data.matr.io/1/api/v1/file/5dcef689110002c7215b2e63/download
+https://data.matr.io/1/api/v1/file/5dceef1e110002c7215b28d6/download
+https://data.matr.io/1/api/v1/file/5dcef6fb110002c7215b304a/download
+https://data.matr.io/1/api/v1/file/5dceefa6110002c7215b2aa9/download
+https://data.matr.io/1/api/v1/file/5dcef152110002c7215b2c90/download
 
 </p>
 
