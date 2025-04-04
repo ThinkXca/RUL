@@ -20,13 +20,13 @@
 ## 📖 Data
 <p align="justify">
 
-charge.csv
-discharge.csv
+<p>charge.csv and discharge.csv</p>
 
-They have been extracted from the original Toyota data through signature-based feature extraction.
-These two datasets can be loaded by the five survival models directly.
+<p>They have been extracted from the original Toyota data through signature-based feature extraction.</p>
+<p>These two datasets can be loaded by the five survival models directly.</p>
 
-Download original Toyota data:
+
+<p>Download original Toyota data:</p>
 
 https://data.matr.io/1/api/v1/file/5c86c0b5fa2ede00015ddf66/download
 https://data.matr.io/1/api/v1/file/5c86bf13fa2ede00015ddd82/download
@@ -37,7 +37,8 @@ https://data.matr.io/1/api/v1/file/5dcef6fb110002c7215b304a/download
 https://data.matr.io/1/api/v1/file/5dceefa6110002c7215b2aa9/download
 https://data.matr.io/1/api/v1/file/5dcef152110002c7215b2c90/download
 
-</p>
+
+<p>Use [battery-survival](https://github.com/Rasheed19/battery-survival) to extract from the original data</p>
 
 
 
