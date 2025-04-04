@@ -17,10 +17,11 @@
 }
 ```
 
-## 📖 Abstract
+## 📖 Data
 <p align="justify">
 
-Battery degradation significantly impacts the reliability and efficiency of energy storage systems, particularly in electric vehicles (EVs) and industrial applications. Predicting the remaining useful life (RUL) of lithium-ion (Li-ion) batteries is crucial for optimizing maintenance schedules, reducing costs, and improving safety. Traditional RUL prediction methods often struggle with nonlinear degradation patterns and uncertainty quantification. To address these challenges, we propose a hybrid survival analysis framework integrating both statistical and machine-learning-based models for RUL estimation. Our approach transforms time-series battery data into time-to-failure data using path signatures, enabling effective survival modeling. We apply five models, including Cox-based survival models and machine-learning-based methods such as DeepHit and MTLR, to estimate failure-free probabilities over time. Experiments conducted on 362 Toyota battery datasets demonstrate the effectiveness of our approach, achieving high time-dependent AUC and concordance index while maintaining a low integrated Brier score. The proposed methodology provides actionable insights for battery manufacturers and engineers, supporting dynamic maintenance strategies and optimized lifecycle management.
+Original data:
+https://data.matr.io/1/
 
 </p>
 
