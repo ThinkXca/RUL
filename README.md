@@ -100,7 +100,7 @@ python CoxTime.py
 python DeepHit.py
 python MTLR.py
 
-# Enter the Nasa folder
+# Enter the NASA folder
 pip install jupyter
 
 jupyter notebook
