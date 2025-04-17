@@ -1,0 +1,17 @@
+scikit-survival==0.23.0
+numpy==1.22.4
+pandas==1.5.3
+seaborn==0.13.0
+scipy==1.11.4
+matplotlib==3.8.2
+battery-data-toolkit==0.1.1
+iisignature==0.24
+esig==0.9.8.3
+PyYAML==6.0.1
+click==8.1.7
+xlsxwriter==3.2.2
+sklearn-pandas==2.2.0
+torch==2.6.0
+torchtuples==0.2.2
+pycox==0.3.0
+survival_evaluation==0.1.3
