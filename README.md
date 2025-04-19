@@ -20,6 +20,8 @@
 ## 📖 Data
 <p align="justify">
 
+### Toyota
+
 <p>charge.csv and discharge.csv</p>
 
 <p>They have been extracted from the original Toyota data through signature-based feature extraction.</p>
@@ -39,6 +41,10 @@ https://data.matr.io/1/api/v1/file/5dcef152110002c7215b2c90/download
 
 
 <p>Use <a href="https://github.com/Rasheed19/battery-survival">battery-survival</a> to generate our preprocessed data from the original data</p>
+
+
+
+### NASA
 
 <p>Download link for the NASA dataset: <a href="https://phm-datasets.s3.amazonaws.com/NASA/5.+Battery+Data+Set.zip">NASA Battery Dataset</a></p> 
 
