@@ -17,7 +17,7 @@
 }
 ```
 
-## 📖 Data
+## Data
 <p align="justify">
 
 ### Toyota
@@ -30,14 +30,21 @@
 
 <p>Download original Toyota data:</p>
 
-https://data.matr.io/1/api/v1/file/5c86c0b5fa2ede00015ddf66/download
-https://data.matr.io/1/api/v1/file/5c86bf13fa2ede00015ddd82/download
-https://data.matr.io/1/api/v1/file/5c86bd64fa2ede00015ddbb2/download
-https://data.matr.io/1/api/v1/file/5dcef689110002c7215b2e63/download
-https://data.matr.io/1/api/v1/file/5dceef1e110002c7215b28d6/download
-https://data.matr.io/1/api/v1/file/5dcef6fb110002c7215b304a/download
-https://data.matr.io/1/api/v1/file/5dceefa6110002c7215b2aa9/download
-https://data.matr.io/1/api/v1/file/5dcef152110002c7215b2c90/download
+Dataset 1: <a href="https://data.matr.io/1/api/v1/file/5c86c0b5fa2ede00015ddf66/download">Download</a>
+
+Dataset 2: <a href="https://data.matr.io/1/api/v1/file/5c86bf13fa2ede00015ddd82/download">Download</a>
+
+Dataset 3: <a href="https://data.matr.io/1/api/v1/file/5c86bd64fa2ede00015ddbb2/download">Download</a>
+
+Dataset 4: <a href="https://data.matr.io/1/api/v1/file/5dcef689110002c7215b2e63/download">Download</a>
+
+Dataset 5: <a href="https://data.matr.io/1/api/v1/file/5dceef1e110002c7215b28d6/download">Download</a>
+
+Dataset 6: <a href="https://data.matr.io/1/api/v1/file/5dcef6fb110002c7215b304a/download">Download</a>
+
+Dataset 7: <a href="https://data.matr.io/1/api/v1/file/5dceefa6110002c7215b2aa9/download">Download</a>
+
+Dataset 8: <a href="https://data.matr.io/1/api/v1/file/5dcef152110002c7215b2c90/download">Download</a>
 
 
 <p>Use <a href="https://github.com/Rasheed19/battery-survival">battery-survival</a> to generate our preprocessed data from the original data</p>
@@ -46,7 +53,7 @@ https://data.matr.io/1/api/v1/file/5dcef152110002c7215b2c90/download
 
 ### NASA
 
-<p>Download link for the NASA dataset: <a href="https://phm-datasets.s3.amazonaws.com/NASA/5.+Battery+Data+Set.zip">NASA Battery Dataset</a></p> 
+<p>NASA dataset: <a href="https://phm-datasets.s3.amazonaws.com/NASA/5.+Battery+Data+Set.zip">Download</a></p> 
 
 <p>Specifically, we only used the data contained in <code>./5.+Battery+Data+Set.zip/BatteryAgingARC-FY08Q4.zip</code> as the experimental dataset.</p>
 
