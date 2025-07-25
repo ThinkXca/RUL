@@ -79,9 +79,6 @@ Dataset 8: <a href="https://data.matr.io/1/api/v1/file/5dcef152110002c7215b2c90/
 
 ## Run
 
-#### Tested Environment
-window 11, GeForce 4070, CUDA 12.1 (tested), C++17
-
 #### Clone the repo.
 ```
 git clone https://github.com/ThinkXca/RUL.git --recursive
