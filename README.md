@@ -50,30 +50,27 @@ https://data.matr.io/1/api/v1/file/5dcef152110002c7215b2c90/download
 
 <p>Specifically, we only used the data contained in <code>./5.+Battery+Data+Set.zip/BatteryAgingARC-FY08Q4.zip</code> as the experimental dataset.</p>
 
-## 🗓️ News
-
-<p>[2025.03.16] Many thanks to <a href="https://github.com/jianfeizhang">Jianfei Zhang</a> and <a href="https://github.com/wei872">Longfei Wei</a> for their contributions to the code.</p>
-
-<p>[2025.01.10] Many thanks to <a href="https://github.com/Rasheed19/battery-survival">battery-survival</a>, Support provided for lithium battery data processing.</p>
-
-<p>Some amazing enhancements will also come out this year.</p>
-
-
-
-
-## 🗓️ TODO
+## More
 - [✔] Model information reference: <a href="https://github.com/georgehc/survival-intro">model</a>
 - [✔] Processed data would be requested from our <a href="https://thinkx.ca">website</a>
 - [✔] Dataset preprocessing-related content arrangement dependencies： <a href="https://www.sciencedirect.com/science/article/pii/S2666546824001319">Data preprocessing</a>
 - [✔] Li-ion battery data source: <a href="https://data.matr.io/1/.">Toyota dataset</a> and 
 <a href="https://phm-datasets.s3.amazonaws.com/NASA/5.+Battery+Data+Set.zip">NASA Battery Dataset</a>
 
+## Acknowledgements
+
+<p>Many thanks to <a href="https://github.com/jianfeizhang">Jianfei Zhang</a> and <a href="https://github.com/wei872">Longfei Wei</a> for their contributions to the code.</p>
+
+<p>Many thanks to <a href="https://github.com/Rasheed19/battery-survival">battery-survival</a>, Support provided for lithium battery data processing.</p>
+
+<p>Some amazing enhancements will also come out this year.</p>
+
 </div>
 
 <strong>Some amazing enhancements are under development. We warmly welcome anyone to collaborate to improve this repository. Please send us an email if you are interested!</strong>
 
 
-## 🚀 Setup
+## Run
 
 #### Tested Environment
 window 11, GeForce 4070, CUDA 12.1 (tested), C++17
@@ -124,7 +121,7 @@ model-MTLR.ipynb
 
 
 
-
+## Results
 #### Performance Comparison of Different Models on the Toyota Dataset
 
 <table>
