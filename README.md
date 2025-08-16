@@ -20,13 +20,13 @@
 ## Data
 <p align="justify">
 
+### NASA
+
+<p>NASA dataset: <a href="https://phm-datasets.s3.amazonaws.com/NASA/5.+Battery+Data+Set.zip">Download</a></p> 
+
+<p>Specifically, we only used the data contained in <code>./5.+Battery+Data+Set.zip/BatteryAgingARC-FY08Q4.zip</code> as the experimental dataset.</p>
+
 ### Toyota
-
-<p>charge.csv and discharge.csv</p>
-
-<p>They have been extracted from the original Toyota data through signature-based feature extraction.</p>
-<p>These two datasets can be loaded by the five survival models directly.</p>
-
 
 <p>Download original Toyota data:</p>
 
@@ -49,14 +49,6 @@ Dataset 8: <a href="https://data.matr.io/1/api/v1/file/5dcef152110002c7215b2c90/
 
 <p>Use <a href="https://github.com/Rasheed19/battery-survival">battery-survival</a> to generate our preprocessed data from the original data</p>
 
-
-
-### NASA
-
-<p>NASA dataset: <a href="https://phm-datasets.s3.amazonaws.com/NASA/5.+Battery+Data+Set.zip">Download</a></p> 
-
-<p>Specifically, we only used the data contained in <code>./5.+Battery+Data+Set.zip/BatteryAgingARC-FY08Q4.zip</code> as the experimental dataset.</p>
-
 ## More
 - [✔] Model information reference: <a href="https://github.com/georgehc/survival-intro">model</a>
 - [✔] Processed data would be requested from our <a href="https://thinkx.ca">website</a>
@@ -69,6 +61,8 @@ Dataset 8: <a href="https://data.matr.io/1/api/v1/file/5dcef152110002c7215b2c90/
 <p>Many thanks to <a href="https://github.com/jianfeizhang">Jianfei Zhang</a> and <a href="https://github.com/wei872">Longfei Wei</a> for their contributions to the code.</p>
 
 <p>Many thanks to <a href="https://github.com/Rasheed19/battery-survival">battery-survival</a>, Support provided for lithium battery data processing.</p>
+
+<p>Many thanks to <a href="https://github.com/illidanlab/T-LSTM">TLSTM</a>, Open-source contributions to the TLSTM model architecture.</p>
 
 <p>Some amazing enhancements will also come out this year.</p>
 
@@ -98,15 +92,8 @@ pip install -r requirements.txt
 
 
 
-#### Run the codes
+####NASA Run the codes
 ```
-# Enter the Toyota folder
-python Cox.py
-python CoxPH.py
-python CoxTime.py
-python DeepHit.py
-python MTLR.py
-
 # Enter the NASA folder
 pip install jupyter
 
@@ -121,6 +108,31 @@ model-CoxPH.ipynb
 model-CoxTime.ipynb
 model-DeepHit.ipynb
 model-MTLR.ipynb
+```
+
+
+####Toyota Run the codes
+<p> When using the signature path method for battery representation extraction, the procedure is the same as that used for the NASA dataset. Please refer to the ./NASA/extractfeature.ipynb file. The ./Toyota/Signature/ExtractedData directory contains the data obtained through signature-based deep feature extraction.</p>
+
+
+<p>For the Toyota dataset, we followed the processing example from <a href="https://github.com/Rasheed19/battery-survival">battery-survival</a>. Similar to their approach, we used the 50th cycle in the Toyota dataset as the experimental data, consisting of a total of 362 batteries. Among them, 174 batteries experienced uncensored events and 188 experienced censored events. The processed battery data can be found in the ./Toyota/TLSTM/OriginalData directory.
+
+For the TLSTM model architecture, we drew inspiration from the encoder–decoder based <a href="https://github.com/illidanlab/T-LSTM">TLSTM project</a>. Unlike their implementation, however, we adopted the PyTorch framework. When extracting TLSTM representations of battery voltage and time, you only need to run:</p>
+
+```
+# Enter the Toyota/TLSTM folder
+python tlstm_ae_battery_feature_extractor.py
+```
+
+<p>The data extracted by TLSTM was placed in the ./Toyota/TLSTM/ExtractedData folder for remaining useful life (RUL) analysis of the batteries. It is important to note that, in order to align with the experimental data reported in the paper, we modified the batch column in the TLSTM-extracted representations to a group column. Based on the group information, the data can be partitioned for survival analysis and predictive evaluation. Please note that if you directly run the downloaded code, it corresponds to the ungrouped case. The code can be executed as follows:</p>
+
+```
+# Enter the Toyota/TLSTM folder
+python Cox.py
+python CoxPH.py
+python CoxTime.py
+python DeepHit.py
+python MTLR.py
 ```
 
 
