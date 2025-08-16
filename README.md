@@ -62,8 +62,6 @@ Dataset 8: <a href="https://data.matr.io/1/api/v1/file/5dcef152110002c7215b2c90/
 
 <p>Many thanks to <a href="https://github.com/Rasheed19/battery-survival">battery-survival</a>, Support provided for lithium battery data processing.</p>
 
-<p>Many thanks to <a href="https://github.com/illidanlab/T-LSTM">TLSTM</a>, Open-source contributions to the TLSTM model architecture.</p>
-
 <p>Some amazing enhancements will also come out this year.</p>
 
 </div>
@@ -117,7 +115,7 @@ model-MTLR.ipynb
 
 <p>For the Toyota dataset, we followed the processing example from <a href="https://github.com/Rasheed19/battery-survival">battery-survival</a>. Similar to their approach, we used the 50th cycle in the Toyota dataset as the experimental data, consisting of a total of 362 batteries. Among them, 174 batteries experienced uncensored events and 188 experienced censored events. The processed battery data can be found in the ./Toyota/TLSTM/OriginalData directory.
 
-For the TLSTM model architecture, we drew inspiration from the encoder–decoder based <a href="https://github.com/illidanlab/T-LSTM">TLSTM</a> project. Unlike their implementation, however, we adopted the PyTorch framework. When extracting TLSTM representations of battery voltage and time, you only need to run:</p>
+For the TLSTM model architecture, we drew inspiration from the encoder–decoder based TLSTM project. When extracting TLSTM representations of battery voltage and time, you only need to run:</p>
 
 ```
 # Enter the Toyota/TLSTM folder
