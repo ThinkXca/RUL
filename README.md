@@ -110,19 +110,28 @@ model-MTLR.ipynb
 
 
 #### Toyota Run the codes
-<p> When using the signature path method for battery representation extraction, the procedure is the same as that used for the NASA dataset. Please refer to the ./NASA/extractfeature.ipynb file. The ./Toyota/Signature/ExtractedData directory contains the data obtained through signature-based deep feature extraction.</p>
+<p style="text-align: justify;">
+When using the signature path method for battery representation extraction, the procedure is the same as that used for the NASA dataset. Please refer to the ./NASA/extractfeature.ipynb file. The ./Toyota/Signature/ExtractedData directory contains the data obtained through signature-based deep feature extraction.
+</p>
 
+<p style="text-align: justify;">
+For the Toyota dataset, we followed the processing example from <a href="https://github.com/Rasheed19/battery-survival">battery-survival</a>. Similar to their approach, we used the 50th cycle in the Toyota dataset as the experimental data, consisting of a total of 362 batteries. Among them, 174 batteries experienced uncensored events and 188 experienced censored events. The processed battery data can be found in the ./Toyota/TLSTM/OriginalData directory.
+</p>
 
-<p>For the Toyota dataset, we followed the processing example from <a href="https://github.com/Rasheed19/battery-survival">battery-survival</a>. Similar to their approach, we used the 50th cycle in the Toyota dataset as the experimental data, consisting of a total of 362 batteries. Among them, 174 batteries experienced uncensored events and 188 experienced censored events. The processed battery data can be found in the ./Toyota/TLSTM/OriginalData directory.
+<p style="text-align: justify;">
+For the TLSTM model architecture, we drew inspiration from the encoder–decoder based TLSTM project. When extracting TLSTM representations of battery voltage and time, you only need to run:
+</p>
 
-For the TLSTM model architecture, we drew inspiration from the encoder–decoder based TLSTM project. When extracting TLSTM representations of battery voltage and time, you only need to run:</p>
 
 ```
 # Enter the Toyota/TLSTM folder
 python tlstm_ae_battery_feature_extractor.py
 ```
 
-<p>The data extracted by TLSTM was placed in the ./Toyota/TLSTM/ExtractedData folder for remaining useful life (RUL) analysis of the batteries. It is important to note that, in order to align with the experimental data reported in the paper, we modified the batch column in the TLSTM-extracted representations to a group column. Based on the group information, the data can be partitioned for survival analysis and predictive evaluation. Please note that if you directly run the downloaded code, it corresponds to the ungrouped case. The code can be executed as follows:</p>
+<p style="text-align: justify;">
+The data extracted by TLSTM was placed in the ./Toyota/TLSTM/ExtractedData folder for remaining useful life (RUL) analysis of the batteries. It is important to note that, in order to align with the experimental data reported in the paper, we modified the batch column in the TLSTM-extracted representations to a group column. Based on the group information, the data can be partitioned for survival analysis and predictive evaluation. Please note that if you directly run the downloaded code, it corresponds to the ungrouped case. The code can be executed as follows:
+</p>
+
 
 ```
 # Enter the Toyota/TLSTM folder
